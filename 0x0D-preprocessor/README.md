@@ -1,18 +1,19 @@
-# Static libraries
-
-Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn about static libraries in **C language**.
+# Preprocessor
+Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn about how to include guard in the header files and macros in **C language**.
 
 ## Technologies
-* Scripts written in Bash 4.3.11(1)
 * C files are compiled using `gcc 4.8.4`
 * C files are written according to the C90 standard
 * Tested on Ubuntu 14.04 LTS
 
 ## Files
-All of the following files are scripts and programs written in C:
+All of the following files are programs written in C:
 
 | Filename | Description |
 | -------- | ----------- |
-| `libholberton.a` | Static library that contains a lot of functions |
-| `create_static_lib.sh` | Script that creates a static library called `liball.a` from all the `.c` files that are in the current directory |
-| `holberton.h` | Header file that contains all the prototypes of the used functions |
+| `0-object_like_macro.h` | Header file that defines a macro named `SIZE` |
+| `1-pi.h` | Header file that defines a macro named `PI` |
+| `2-main.c` | Prints the name of the file it was compiled from |
+| `3-function_like_macro.h` | Function-like macro `ABS(x)` that computes the absolute value of a number `x` |
+| `4-sum.h` | Function-like macro `SUM(x,y)` that computes the sum of the numbers `x` and `y` |
+| `101-preprocessor_abuse.c` | Prints `Hello, Holberton` |
